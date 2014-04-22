@@ -5,59 +5,23 @@
 	<key>app</key>
 	<string>com.bohemiancoding.sketch3</string>
 	<key>build</key>
-	<integer>7573</integer>
+	<integer>7597</integer>
 	<key>commit</key>
-	<string>4e465a63318006126bf98e1e51096c1ad230008e</string>
+	<string>463d76bf23dc890960e184011f80b3dacac572b9</string>
 	<key>fonts</key>
 	<array>
 		<string>ArialMT</string>
 		<string>HelveticaNeue-Thin</string>
 		<string>EuphemiaUCAS-Italic</string>
 		<string>EuphemiaUCAS</string>
-		<string>EuphemiaUCAS-Italic</string>
-		<string>HelveticaNeue-Thin</string>
-		<string>HelveticaNeue-Thin</string>
-		<string>HelveticaNeue-Thin</string>
-		<string>HelveticaNeue-Thin</string>
-		<string>HelveticaNeue-Thin</string>
-		<string>HelveticaNeue-Medium</string>
 		<string>HelveticaNeue-Medium</string>
 		<string>HelveticaNeue-Light</string>
-		<string>ArialMT</string>
-		<string>Arial-BoldMT</string>
-		<string>ArialMT</string>
-		<string>Arial-BoldMT</string>
-		<string>ArialMT</string>
-		<string>Arial-BoldMT</string>
-		<string>ArialMT</string>
-		<string>Arial-BoldMT</string>
-		<string>ArialMT</string>
 		<string>Arial-BoldMT</string>
 		<string>CourierNewPS-BoldMT</string>
 		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>CourierNewPSMT</string>
-		<string>CourierNewPS-BoldMT</string>
-		<string>HelveticaNeue-Thin</string>
 	</array>
 	<key>length</key>
-	<integer>228916</integer>
+	<integer>228993</integer>
 	<key>version</key>
 	<integer>36</integer>
 </dict>
