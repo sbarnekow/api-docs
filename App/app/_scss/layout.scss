@@ -1,0 +1,27 @@
+@import "constants";
+
+header {
+  display: block;
+  width: 100%;
+
+  .brand {
+    display: inline-block;
+    float: left;
+
+    img {
+      width: 140px;
+    }
+  }
+
+  nav {
+      a {
+        display: inline-block;
+        padding: 10px;
+      }
+  }
+
+  .search {
+    float: right;
+  }
+
+}
