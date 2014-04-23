@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: ui
 title:  "Yo Jekyll!"
-categories: jekyll update
 ---
 
 # 'Allo, 'Allo!

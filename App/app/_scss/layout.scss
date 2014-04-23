@@ -1,4 +1,4 @@
-@import "constants";
+@import "two_column_layout";
 
 header {
   display: block;
@@ -15,13 +15,27 @@ header {
 
   nav {
       a {
+        color: white;
         display: inline-block;
         padding: 10px;
+        text-decoration: none;
       }
   }
 
   .search {
     float: right;
   }
+}
 
+.left{
+  @include span-columns(2);
+  li{
+    list-style-type: none;
+    margin: 0;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
