@@ -1,6 +1,6 @@
 ---
 layout: ui
-title:  "Welcome to Jekyll!"
+title:  "Fonts"
 date:   2014-04-22 10:42:16
 ---
 

@@ -7,6 +7,7 @@ header {
   .brand {
     display: inline-block;
     float: left;
+    padding: 12px 20px;
 
     img {
       width: 140px;
@@ -14,12 +15,25 @@ header {
   }
 
   nav {
-      a {
-        color: white;
-        display: inline-block;
-        padding: 10px;
-        text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+
+    a {
+      color: white;
+      display: inline-block;
+      font-weight: 300;
+      padding: 10px 15px;
+      margin: 20px 10px 0 5px;
+      text-decoration: none;
+
+      &:visited { color: white; }
+      &:hover { color: #c3c3c3; }
+
+      &.active {
+        font-weight: bold;
       }
+    }
+
   }
 
   .search {
@@ -27,15 +41,33 @@ header {
   }
 }
 
-.left{
-  @include span-columns(2);
-  li{
-    list-style-type: none;
-    margin: 0;
+.content {
+   @include outer-container;
+   @include span-columns(12);
 
-    a {
-      color: white;
-      text-decoration: none;
+  .left{
+    @include span-columns(2 of 12);
+    padding-top: 20px;
+
+    li{
+      font-size: 18px;
+      list-style-type: none;
+      padding: 5px 10px 5px 10px;
+      margin: 0;
+      text-align: right;
+
+      a {
+        color: white;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-decoration: none;
+      }
     }
+  }
+
+  .main-content {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
   }
 }

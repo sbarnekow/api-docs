@@ -1,6 +1,6 @@
 ---
 layout: ui
-title:  "Yo Jekyll!"
+title:  Titles
 ---
 
 # 'Allo, 'Allo!

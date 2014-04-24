@@ -30,15 +30,16 @@
               <img src="/img/logo.png">
             </div>
             <nav>
-              <a href="/app.html">App</a>
-              <a href="/api.html">API</a>
-              <a href="/faq.html">FAQ</a>
-              <a href="/ui.html">UI Patterns</a>
+              <a href="/app.html" {% if page.category == "app" %}class="active"{% endif %}>App</a>
+              <a href="/api.html" {% if page.category == "api" %}class="active"{% endif %}>API</a>
+              <a href="/faq.html" {% if page.category == "faq" %}class="active"{% endif %}>FAQ</a>
+              <a href="/ui.html" {% if page.category == "ui" %}class="active"{% endif %}>UI Patterns</a>
             </nav>
 
           </header>
-
-          {{ content }}
+          <div class="content">
+            {{ content }}
+          </div>
 
 
         </div>
