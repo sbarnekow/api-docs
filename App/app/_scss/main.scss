@@ -17,7 +17,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body, .content, .main-content, .api-content, .api-code { height: 100%; }
 
 body {
   background-color: $background;

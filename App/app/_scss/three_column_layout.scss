@@ -1,0 +1,36 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'constants';
+
+
+.api-content{
+	@include span-columns(5 of 8);
+}
+
+.api-code {
+	@include span-columns(3 of 8);
+	background-color: #F9F9F9;
+
+	.language{
+		background-color: #494949;
+
+		ul{
+		
+			li{
+				display: inline-block;
+				color: #D9D9D9;
+				font-family: $main-font;
+				font-size: 12px;
+				height: 15px;
+				list-style-type: none;
+			}
+			li#contribute{
+				font-size: 8px;
+				font-style: italic;
+			}
+		}
+	}
+
+}
+
+

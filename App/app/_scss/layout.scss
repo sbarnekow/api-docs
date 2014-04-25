@@ -1,4 +1,5 @@
 @import "two_column_layout";
+@import "three_column_layout";
 
 header {
   display: block;
@@ -43,7 +44,6 @@ header {
 
 .content {
    @include outer-container;
-   @include span-columns(12);
 
   .left{
     @include span-columns(2 of 12);
@@ -70,8 +70,8 @@ header {
   }
 
   .main-content {
+    @include span-columns(8 of 12);
     background-color: white;
     border-radius: 5px 5px 0 0;
-    padding: 10px 20px;
   }
 }

@@ -1,0 +1,49 @@
+---
+layout: default 
+---
+
+<nav class="left">
+  <ul>
+      {% for post in site.posts %}
+        {% if post.layout contains page.category %}
+        <li>
+          <a href="{{ post.url }}" {% if post.title == page.title %} class="current" {% endif %}>{{ post.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+  </ul>
+</nav>
+<div class="main-content">
+    
+    <div class="api-content">
+      {{ content }}
+    </div>
+    
+    <div class="api-code">
+      <div class="language"> 
+        <ul>
+          <li>cURL</li>
+          <li>Ruby</li>
+          <li>Javascript</li>
+          <li id="contribute">Want to contribute?</li>
+        </ul>
+      </div>
+        <p>
+          code 
+        <p>
+          code
+           <p>
+          code 
+        <p>
+          code
+           <p>
+          code 
+        <p>
+          code
+           <p>
+          code 
+        <p>
+          code
+    </div>
+
+</div>
