@@ -71,6 +71,7 @@ header {
 
   .main-content {
     @include span-columns(8 of 12);
+    display: table;
     background-color: white;
     border-radius: 5px 5px 0 0;
   }

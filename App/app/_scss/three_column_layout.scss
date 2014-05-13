@@ -5,29 +5,41 @@
 
 .api-content{
 	@include span-columns(5 of 8);
+	position: relative;
+	dispay: table-cell;
 }
 
 .api-code {
 	@include span-columns(3 of 8);
 	background-color: #F9F9F9;
+	dispay: table-cell;
 
-	.language{
+	.language-header{
 		background-color: #494949;
 
 		ul{
 		
 			li{
 				display: inline-block;
-				color: #D9D9D9;
-				font-family: $main-font;
-				font-size: 12px;
 				height: 15px;
 				list-style-type: none;
+				a {
+					text-shadow: rgba(0,0,0,0.7) 0 1px 0;
+					text-decoration: none;
+					color: #D9D9D9;
+					font-family: $main-font;
+					font-size: 12px;
+					padding: 2px;
+				}
+				.selected{
+					font-style: italic;
+				}
 			}
 			li#contribute{
 				font-size: 8px;
 				font-style: italic;
 			}
+
 		}
 	}
 
