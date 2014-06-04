@@ -4,13 +4,13 @@ layout: default
 
 <nav class="left">
   <ul>
-      {% for post in site.posts %}
+      {% sorted_for post in site.posts sort_by:title %}
         {% if post.layout contains page.category %}
         <li>
           <a href="{{ post.url }}" {% if post.title == page.title %} class="current" {% endif %}>{{ post.title }}</a>
         </li>
         {% endif %}
-      {% endfor %}
+      {% endsorted_for %}
   </ul>
 </nav>
 <div class="main-content">
@@ -29,7 +29,7 @@ layout: default
         </ul>
       </div>
         {% highlight ruby %}
-          {{ page.sections['code'] | textilize }}
+     
         {% endhighlight %}
     </div>
 

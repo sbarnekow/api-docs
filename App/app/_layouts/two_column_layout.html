@@ -7,7 +7,11 @@ layout: default
       {% for post in site.posts %}
         {% if post.layout contains page.category %}
         <li>
-          <a href="{{ post.url }}" {% if post.title == page.title %} class="current" {% endif %}>{{ post.title }}</a>
+          <a href="{{ post.url }}" 
+          {% if post.title == page.title %} class="current" 
+          {% endif %}>
+          {{ post.title }}
+        </a>
         </li>
         {% endif %}
       {% endfor %}

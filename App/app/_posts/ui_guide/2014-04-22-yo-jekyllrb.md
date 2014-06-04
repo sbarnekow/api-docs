@@ -1,6 +1,7 @@
 ---
 layout: ui
 title:  Titles
+tag: ui
 ---
 
 # 'Allo, 'Allo!

@@ -5,6 +5,7 @@
 
 .api-content{
 	@include span-columns(5 of 8);
+	padding: 10px 0px 10px 20px; 
 	position: relative;
 	dispay: table-cell;
 }
