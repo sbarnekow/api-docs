@@ -29,9 +29,7 @@ layout: default
         </ul>
       </div>
         {% highlight ruby %}
-        def foo
-          puts 'foo'
-        end
+          {{ page.sections['code'] | textilize }}
         {% endhighlight %}
     </div>
 

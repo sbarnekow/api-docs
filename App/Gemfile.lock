@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     blankslate (2.1.2.4)
     bourbon (3.2.1)
       sass (~> 3.2)
@@ -63,6 +64,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   bourbon
   compass (>= 0.12)
   jekyll (~> 1.4.0)
