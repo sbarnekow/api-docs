@@ -13,3 +13,5 @@ Will include support for:
 - Fuzzy search
 
 To contribute just fork or contact us through @thatsmingle on Twitter.
+
+add a note
