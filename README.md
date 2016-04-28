@@ -1,5 +1,5 @@
 
-hello 
+[![Throughput Graph](https://graphs.waffle.io/sbarnekow/api-docs/throughput.svg)](https://waffle.io/sbarnekow/api-docs/metrics/throughput)
 
 api-docs
 ========
