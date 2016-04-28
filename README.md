@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/sbarnekow/api-docs.svg?label=ready&title=Ready)](http://waffle.io/sbarnekow/api-docs)
+
 
 [![Throughput Graph](https://graphs.waffle.io/sbarnekow/api-docs/throughput.svg)](https://waffle.io/sbarnekow/api-docs/metrics/throughput)
 
